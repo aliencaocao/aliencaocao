@@ -17,5 +17,5 @@ object-fit: cover;
 background-size: cover;
 width: 130vw;
 opacity: 0.5;
-background: url('https://wallpaperswide.com/download/your_name-wallpaper-2880x1800.jpg');
+background: url('https://github.com/aliencaocao/aliencaocao/assets/20109683/1766c9db-0f4e-4d6b-a56a-8810bfa02139');
 "]{}
