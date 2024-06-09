@@ -4,18 +4,3 @@
 </a>
 
 ![aliencaocao's GitHub stats](https://github-readme-stats.vercel.app/api?username=aliencaocao&count_private=true&show_icons=true)
-
-```math
-\mmlToken{ms}[fontfamily="
-goombafont;
-color:red;
-pointer-events:none;
-z-index: -11;
-position: fixed;
-inset:0;
-object-fit: cover;
-background-size: cover;
-width: 130vw;
-opacity: 0.5;
-background: url('https://github.com/aliencaocao/aliencaocao/assets/20109683/1766c9db-0f4e-4d6b-a56a-8810bfa02139');
-"]{}
