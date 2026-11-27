@@ -43,6 +43,19 @@ jobs:
         EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
         EXCLUDE_FORKED_REPOS: true
 
+    # Render the github-readme-stats card statically (replaces the Vercel endpoint)
+    - uses: actions/setup-node@v6
+      with:
+        node-version: '24'
+
+    - name: Generate github-readme-stats card
+      run: |
+        git clone --depth 1 https://github.com/anuraghazra/github-readme-stats "$RUNNER_TEMP/grs"
+        (cd "$RUNNER_TEMP/grs" && npm ci --omit=dev --ignore-scripts)
+        GRS_DIR="$RUNNER_TEMP/grs" node generate_readme_stats.mjs "${{ github.repository_owner }}" generated/github-readme-stats.svg
+      env:
+        PAT_1: ${{ secrets.ACCESS_TOKEN }}
+
     # Commit all changed files to the repository
     - name: Commit to the repo
       run: |
