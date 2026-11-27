@@ -1,4 +1,4 @@
 <a href="https://github.com/jstrieb/github-stats">
-<img src="https://github.com/aliencaocao/aliencaocao/blob/master/generated/overview.svg" />
-<img src="https://github.com/aliencaocao/aliencaocao/blob/master/generated/languages.svg" />
+<img src="https://raw.githubusercontent.com/aliencaocao/aliencaocao/master/generated/overview.svg" />
+<img src="https://raw.githubusercontent.com/aliencaocao/aliencaocao/master/generated/languages.svg" />
 </a>
